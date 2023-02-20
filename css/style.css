@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.drop_list{
+    justify-content: center;
+    width: 100%px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .drop{
+    width: 125px;
+    height: 70px;
+    border:solid;
+    float: left;
+    transition:100ms;
+    text-align:center;
+     line-height: 50px;
+     font-size:30px
+  }
+  
+  .dragging {
+    opacity:0.5;
+  }
+  
+  .over {
+    border: solid red;
+  }
